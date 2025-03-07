@@ -42,7 +42,11 @@ const Project = ({ name, description, techStack, github, website }: Props) => {
 							key={i}
 							className='text-[10px] font-medium text-gray-600'>
 							{tech}
-							{i < techStack.length - 1 && <span className='mx-1'>•</span>}
+							{i < techStack.length - 1 && (
+								<span className='relative bottom-[1px] text-[8px] mx-2.5'>
+									•
+								</span>
+							)}
 						</span>
 					))}
 				</p>

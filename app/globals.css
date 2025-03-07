@@ -10,7 +10,7 @@
 
 @layer utilities {
 	.heading {
-		@apply text-base text-indigo-800 font-semibold;
+		@apply text-[14px] text-indigo-800 font-semibold;
 	}
 
 	.title {
@@ -18,10 +18,10 @@
 	}
 
 	.subtitle {
-		@apply text-sm text-gray-600 leading-5 font-normal;
+		@apply text-[13px] text-gray-600 leading-5 font-normal;
 	}
 
 	.paragraph {
-		@apply text-[12.5px] text-gray-700 font-normal leading-4.5;
+		@apply text-[12px] text-gray-600 font-normal leading-4.5;
 	}
 }

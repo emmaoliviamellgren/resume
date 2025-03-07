@@ -10,7 +10,7 @@ const Education = () => {
 			<div className='flex flex-col'>
 				<div className='flex gap-2 items-center'>
 					<p className='title'>{program}</p>
-					<span className='mb-0.5'>⸺</span>
+					<span className='relative bottom-[2.75px]'>⸺</span>
 					<p className='title'>{school}</p>
 				</div>
 				<p className='paragraph'>{duration}</p>

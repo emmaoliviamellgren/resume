@@ -20,13 +20,13 @@ const IndexPage = () => {
 		<>
 			<main
 				ref={contentRef}
-				className='flex flex-row w-full gap-x-8 mx-auto'>
+				className='flex flex-row w-full gap-x-14 -ml-4 -mr-8'>
 				<aside className='flex flex-col gap-8 w-[70%]'>
 					<Header />
 					<Experience />
 					<Projects />
 				</aside>
-				<aside className='flex flex-col gap-8 w-[40%]'>
+				<aside className='flex flex-col gap-8 w-[35%]'>
 					<Contact />
 					<Education />
 					<TechStack />

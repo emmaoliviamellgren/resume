@@ -6,7 +6,7 @@ export const data = {
 		website: 'https://emmamellgren.vercel.app/',
 	},
 	experience: {
-		position: 'Front End Developer Intern',
+		position: 'Front End Developer',
 		company: 'Dogstr',
 		duration: 'Nov 2024 - Present',
 		description: {
@@ -23,7 +23,7 @@ export const data = {
 	projects: {
 		list: [
 			{
-				name: 'Dog Breed Identifier',
+				name: 'Breed Identifier',
 				description: `AI-powered breed identification, built as a fun little side project in order to learn basic machine learning and working with AI models. Initially built with TensorFlow.js and the MobileNet image processing model, I later changed the model to one provided by Clarifai to improve accuracy.`,
 				techStack: [
 					'Next.js',

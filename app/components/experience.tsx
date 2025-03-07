@@ -11,11 +11,15 @@ const Experience = () => {
 			<div className='flex flex-col'>
 				<div className='flex gap-2 items-center'>
 					<p className='title'>{position}</p>
-					<span className='mb-0.5'>⸺</span>
+					<span className='relative bottom-[2.75px]'>⸺</span>
 					<p className='title'>{company}</p>
 				</div>
 
-				<p className='paragraph'>{duration}</p>
+				<div className='flex gap-2 items-center'>
+					<p className='paragraph'>{duration}</p>
+					<span className='relative bottom-[1px] text-[8px]'>•</span>
+					<p className='paragraph'>Internship</p>
+				</div>
 				<p className='paragraph mt-2'>{description.text}</p>
 				<ul>
 					{description.responsibilities.map((responsibility, i) => (
