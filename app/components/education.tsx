@@ -7,13 +7,14 @@ const Education = () => {
 	return (
 		<div>
 			<Heading heading='Education' />
-			<div className='flex flex-col gap-1'>
+			<div className='flex flex-col'>
 				<div className='flex gap-2 items-center'>
-					<p className='title'>{program}</p> ⸺
+					<p className='title'>{program}</p>
+					<span className='mb-0.5'>⸺</span>
 					<p className='title'>{school}</p>
 				</div>
 				<p className='paragraph'>{duration}</p>
-                <p className='paragraph mt-3'>{description}</p>
+				<p className='paragraph mt-2'>{description}</p>
 			</div>
 		</div>
 	);

@@ -8,14 +8,15 @@ const Experience = () => {
 	return (
 		<div>
 			<Heading heading='Relevant Experience' />
-			<div className='flex flex-col gap-1'>
+			<div className='flex flex-col'>
 				<div className='flex gap-2 items-center'>
-					<p className='title'>{position}</p> ⸺
+					<p className='title'>{position}</p>
+					<span className='mb-0.5'>⸺</span>
 					<p className='title'>{company}</p>
 				</div>
 
 				<p className='paragraph'>{duration}</p>
-				<p className='paragraph mt-3'>{description.text}</p>
+				<p className='paragraph mt-2'>{description.text}</p>
 				<ul>
 					{description.responsibilities.map((responsibility, i) => (
 						<li

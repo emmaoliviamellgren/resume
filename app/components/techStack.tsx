@@ -7,20 +7,20 @@ const TechStack = () => {
 	return (
 		<div>
 			<Heading heading='Tech Stack' />
-			<div className='flex flex-col gap-3'>
+			<div className='flex flex-col gap-4'>
 				<div>
 					<p className='title'>Languages</p>
-					<p className='paragraph mt-3'>{languages.join(', ')}</p>
+					<p className='paragraph mt-1.5'>{languages.join(', ')}</p>
 				</div>
 				<div>
 					<p className='title'>
 						Libraries, Frameworks & Environments
 					</p>
-					<p className='paragraph mt-3'>{libraries.join(', ')}</p>
+					<p className='paragraph mt-1.5'>{libraries.join(', ')}</p>
 				</div>
 				<div>
 					<p className='title'>Tools & Platforms</p>
-					<p className='paragraph mt-3'>{tools.join(', ')}</p>
+					<p className='paragraph mt-1.5'>{tools.join(', ')}</p>
 				</div>
 			</div>
 		</div>
