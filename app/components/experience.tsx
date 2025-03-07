@@ -6,7 +6,7 @@ const Experience = () => {
 	const { position, company, duration, description } = data.experience;
 
 	return (
-		<>
+		<div>
 			<Heading heading='Relevant Experience' />
 			<div className='flex flex-col gap-1'>
 				<div className='flex gap-2 items-center'>
@@ -26,7 +26,7 @@ const Experience = () => {
 					))}
 				</ul>
 			</div>
-		</>
+		</div>
 	);
 };
 
