@@ -6,7 +6,7 @@ const Header = () => {
 			</h1>
 			<p className='subtitle max-w-md leading-6'>
 				Front end developer passionate about crafting responsive and
-				accessible interfaces that are beautiful to experience
+				accessible interfaces that are beautiful to experience.
 			</p>
 		</div>
 	);

@@ -10,7 +10,7 @@ export const data = {
 		company: 'Dogstr',
 		duration: 'Nov 2024 - Present',
 		description: {
-			text: `As a frontend developer intern at Dogstr, I am responsible for designing and developing a web application that complements the existing mobile app. Key responsibilities include:`,
+			text: `As a frontend developer intern at Dogstr, I collaborate closely with the UX team to independently develop their website that complement the existing mobile app. Key responsibilities include:`,
 			responsibilities: [
 				'Building a mobile-first, responsive web app using Angular and Angular Material',
 				'Enabling users to discover and review dog-friendly places near them via an interactive map, using the Google Maps API',

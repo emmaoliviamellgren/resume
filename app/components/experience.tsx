@@ -20,7 +20,7 @@ const Experience = () => {
 					<span className='relative bottom-[1px] text-[8px]'>•</span>
 					<p className='paragraph'>Internship</p>
 				</div>
-				<p className='paragraph mt-2'>{description.text}</p>
+				<p className='paragraph mt-2 mb-1.5'>{description.text}</p>
 				<ul>
 					{description.responsibilities.map((responsibility, i) => (
 						<li
