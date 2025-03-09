@@ -53,7 +53,7 @@ export const data = {
 				description: `A full stack e-commerce mock web application built with React in the frontend and Node.js + express in the backend. Users can browse through items, add them to their shopping cart and proceed to checkout process. By creating an account, users can see their order history of previously "purchased" items. Built as a part of a school project learning back end technology.`,
 				techStack: ['React.js', 'Node.js', 'Express', 'MongoDB'],
 				github: '',
-				website: 'https://e-commerce-client-5p7v.onrender.com/',
+				website: 'https://emmas-e-commerce.vercel.app/',
 			},
 		],
 	},
