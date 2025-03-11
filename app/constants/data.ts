@@ -12,11 +12,10 @@ export const data = {
 		description: {
 			text: `As a frontend developer intern at Dogstr, I collaborate closely with the UX team to independently develop their website that complement the existing mobile app. Key responsibilities include:`,
 			responsibilities: [
-				'Building a mobile-first, responsive web app using Angular and Angular Material',
-				'Enabling users to discover and review dog-friendly places near them via an interactive map, using the Google Maps API',
-				'Search functionality using Algolia',
-				'Incorporating gamification to encourage user engagement',
-				'Implementing a modern, consistent UI for a visually appealing and accessible interface',
+				'Building a dynamic, responsive web application using Angular and TypeScript, ensuring smooth user experiences',
+				'Developing and integrating frontend and backend systems using Firebase Functions, Node.js, and Express, exposing APIs for user interactions',
+				'Enabling users to search, discover, and review dog-friendly places via an interactive map powered by the Google Maps API and Algolia',
+				'Implementing a modern, consistent UI for a visually appealing and user-friendly interface',
 			],
 		},
 	},
@@ -50,7 +49,7 @@ export const data = {
 			},
 			{
 				name: 'E-Commerce Website',
-				description: `A full stack e-commerce mock web application built with React in the frontend and Node.js + express in the backend. Users can browse through items, add them to their shopping cart and proceed to checkout process. By creating an account, users can see their order history of previously "purchased" items. Built as a part of a school project learning back end technology.`,
+				description: `A full stack e-commerce mock web application built with React in the frontend and Node.js + Express in the backend. Users can browse through items, add them to their shopping cart and proceed to checkout process. By creating an account, users can see their order history of previously "purchased" items.`,
 				techStack: ['React.js', 'Node.js', 'Express', 'MongoDB'],
 				github: '',
 				website: 'https://emmas-e-commerce.vercel.app/',
@@ -62,7 +61,7 @@ export const data = {
 		school: 'KYH',
 		duration: 'Aug 2023 - Present',
 		description:
-			'Courses include JavaScript & TypeScript, UX/UI Design, frameworks like React and Next.js, backend technologies like Node.js, MongoDB and more. Graduating May 2025!',
+			'Courses include JavaScript & TypeScript, UX/UI Design, version control with Git, frameworks like React and Next.js, backend technologies like Node.js, MongoDB, and more. Graduating May 2025!',
 	},
 	techStack: {
 		languages: ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'SCSS'],
@@ -72,6 +71,8 @@ export const data = {
 			'Angular',
 			'Angular Material',
 			'Vue',
+			'Node.js',
+			'Express',
 			'Tailwind CSS',
 			'Framer Motion',
 		],
