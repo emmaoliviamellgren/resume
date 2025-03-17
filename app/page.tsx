@@ -14,7 +14,7 @@ const IndexPage = () => {
 	const contentRef = useRef<HTMLDivElement>(null);
 	const reactToPrintFn = useReactToPrint({
 		contentRef: contentRef,
-		documentTitle: 'Resume.pdf', // Optional: Set the PDF file name
+		documentTitle: 'Resume.pdf',
 	});
 	return (
 		<>
