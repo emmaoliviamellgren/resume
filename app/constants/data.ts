@@ -30,22 +30,19 @@ export const data = {
 					'TensorFlow.js',
 					'Clarifai',
 				],
-				github: '',
 				website: 'https://doggy-identifier.vercel.app/',
 			},
 			{
 				name: 'TaskWise - Task Manager',
 				description: `An intuitive and user-friendly todo web application built with Next.js and Firebase with Clerk for authentication. Taskwise allows users to manage their tasks efficiently by adding, updating, and deleting todo items.`,
 				techStack: ['Next.js', 'Clerk', 'Firebase'],
-				github: '',
 				website: 'https://taskwise.vercel.app/',
 			},
 			{
 				name: 'Nestify - AirBnB Clone',
 				description: `A full stack mock web application inspired by Airbnb, built using Next.js and Firebase with Stripe API for payment flow. It is a modern, scalable, and user-friendly application that allows users to browse (fictional) housings, book stays, and manage their bookings.`,
 				techStack: ['Next.js', 'Firebase', 'Stripe API'],
-				github: 'https://github.com/emmaoliviamellgren/nestify',
-				website: '',
+				website: 'https://nestify-gamma.vercel.app/',
 			},
 			{
 				name: 'E-Commerce Website',
