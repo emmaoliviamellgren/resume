@@ -42,7 +42,7 @@ export const data = {
 			},
 			{
 				name: 'Nestify - AirBnB Clone',
-				description: `A full stack mock web application inspired by Airbnb, built using Next.js and Firebase with Stripe API for payment flow. It is a modern, scalable, and user-friendly application that allows users to browse (fictional) housings, book stays, and manage their bookings. Built as a form of school project.`,
+				description: `A full stack mock web application inspired by Airbnb, built using Next.js and Firebase with Stripe API for payment flow. It is a modern, scalable, and user-friendly application that allows users to browse (fictional) housings, book stays, and manage their bookings.`,
 				techStack: ['Next.js', 'Firebase', 'Stripe API'],
 				github: 'https://github.com/emmaoliviamellgren/nestify',
 				website: '',
