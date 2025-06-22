@@ -12,7 +12,7 @@ export const data = {
 				company: "TellusTalk",
 				duration: "June 2025 - Current",
 				description: {
-					text: `At TellusTalk I'm part of a team building a scalable React application for email marketing campaigns, serving clients from startups to enterprise corporations and government entities across multiple markets.`,
+					text: `At TellusTalk, I'm part of a team building a scalable React application for email marketing campaigns - serving clients from startups to enterprise corporations and government entities across multiple markets.`,
 				},
 				internship: false,
 			},
