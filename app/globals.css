@@ -2,7 +2,6 @@
 
 :root {
 	background-color: #ededed;
-	padding: 3rem 4rem;
 	--font-inter: Inter, sans-serif;
 	font-family: var(--font-inter);
 	font-feature-settings: 'ss03', 'cv02', 'cv11';

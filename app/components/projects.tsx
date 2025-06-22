@@ -7,8 +7,8 @@ interface Props {
 	name: string;
 	description: string;
 	techStack: string[];
-	github: string;
-	website: string;
+	github?: string;
+	website?: string;
 }
 
 const Project = ({ name, description, techStack, github, website }: Props) => {
@@ -59,7 +59,7 @@ const Project = ({ name, description, techStack, github, website }: Props) => {
 const Projects = () => {
 	return (
 		<div>
-			<Heading heading='Selected Projects' />
+			<Heading heading='Featured Projects' />
 			<div className='flex flex-col gap-6'>
 				{data.projects.list.map((project, i) => (
 					<Project
